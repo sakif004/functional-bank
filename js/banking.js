@@ -9,6 +9,7 @@ function getInputValue(inputId) {
     return amountValue;
 };
 
+// get and update deposit & withdraw total 
 function upadateTotalField(totalFieldId, depositAmount) {
     const totalElement = document.getElementById(totalFieldId);
     const totalText = totalElement.innerText;
